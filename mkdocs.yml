@@ -1,0 +1,21 @@
+site_name: ACCESS Notification Catalog
+site_description: Auto-generated catalog of all automated notifications sent from ConnectCI portals
+repo_url: https://github.com/access-ci-org/cyberteam_notification_catalog
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - search.suggest
+    - content.tooltips
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Notifications:
+    - Summary: notifications/index.md
+    - ACCESS Support: notifications/access-support.md
+    - Campus Champions: notifications/campus-champions.md
+    - CCMNet: notifications/ccmnet.md
+    - Open OnDemand: notifications/open-ondemand.md
+    - PAScience: notifications/pascience.md
+    - Shared: notifications/shared.md
