@@ -2235,7 +2235,7 @@
 <td>Your MATCH Engagement is ready to recruit!</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Your engagement [node:title] is ready to recruit.</td>
 </tr>
 <tr>
@@ -2290,7 +2290,7 @@
 <td>MATCH Engagement draft created</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Click on this link to review the engagement draft "[node:title]".</td>
 </tr>
 <tr>
@@ -2345,7 +2345,7 @@
 <td>Your MATCH Engagement was received</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Your request has been submitted. We will be in touch soon.[node:canonical-source-domain-url]</td>
 </tr>
 <tr>
@@ -2400,7 +2400,7 @@
 <td>MATCH Engagement submitted for review</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Click on this link to review the engagement submission "[node:title]".</td>
 </tr>
 <tr>
@@ -2455,7 +2455,7 @@
 <td>MATCH Engagement ready for review</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Click on this link to review the engagement submission "[node:title]".</td>
 </tr>
 <tr>
@@ -2510,7 +2510,7 @@
 <td>Your {% if entity.bundle|title == 'Access_News' %}ACCESS News{% else %}ACCESS Event{% endif %} needs adjustment</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Your content {{ node.title.0.value }} needs adjustment. {% if entity.bundle|title == 'Access_News' %} {{ node.title.value }}{% else %} {{ entity.title.value }} {% endif %}</td>
 </tr>
 <tr>
@@ -2565,7 +2565,7 @@
 <td>Your {% if entity.bundle|title == 'Access_News' %}Announcement{% else %}Event{% endif %} was published</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Your content {{ node.title.0.value }} was published.{% if entity.bundle|title == 'Access_News' %} {{ node.title.value }}{% else %} {{ entity.title.value }} {% endif %}</td>
 </tr>
 <tr>
@@ -2620,7 +2620,7 @@
 <td>Please participate in our survey for {{ title }}</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>{{ custom_body|raw }}</td>
 </tr>
 <tr>
@@ -2675,7 +2675,7 @@
 <td>Reminder: please participate in our survey for {{ title }}</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>{{ custom_body|raw }}</td>
 </tr>
 <tr>
@@ -2730,7 +2730,7 @@
 <td>{{ email_title }}</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>{{ custom_body|raw }}</td>
 </tr>
 <tr>
@@ -2785,8 +2785,8 @@
 <td>{% if registration_count == 1 %}{{ registration_count }} new registration{% else %}{{ registration_count }} new registrations{% endif %} for {{ event_title }}</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
-<td>{% if registration_count == 1 %}{{ registration_count }} new registration{% else %}{{ registration_count }} new registrations{% endif %} for your event {{ event_title }}.</td>
+<td><strong>Body</strong></td>
+<td>{% if registration_count == 1 %}{{ registration_count }} new registration{% else %}{{ registration_count }} new registrations{% endif %} for your event {{ event_title }}.Please review the registrants to see who has registered.{% if first_registration %}First registration received: {{ first_registration }}{% endif %}</td>
 </tr>
 <tr>
 <td><strong>Edit Location</strong></td>
@@ -2840,7 +2840,7 @@
 <td>{{ email_title }}</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>{{ custom_body|raw }}</td>
 </tr>
 <tr>
@@ -2895,8 +2895,8 @@
 <td>Waitlist Status for {{ title }}</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
-<td>Dear {{ name }},Thank you for registering for&nbsp;{{ title_link|raw }} on {{ start_date }}. At this time, the session is full, and your registration has been placed on the waitlist.</td>
+<td><strong>Body</strong></td>
+<td>Dear {{ name }},Thank you for registering for&nbsp;{{ title_link|raw }} on {{ start_date }}. At this time, the session is full, and your registration has been placed on the waitlist.If a spot becomes available, we will notify you immediately. {{ contact }}Thank you for your understanding, and we hope to accommodate you soon!Kind regards,ACCESS Support</td>
 </tr>
 <tr>
 <td><strong>Edit Location</strong></td>
@@ -2950,7 +2950,7 @@
 <td>An announcement is ready for review</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>An announcement has been added and is ready to be reviewed. Click here to view: {{ title }}</td>
 </tr>
 <tr>
@@ -3005,7 +3005,7 @@
 <td>Test email from [site:name]</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>You have mail This is a test email from [site:name]. Have a great {{ day }}! Drupal Symfony Mailer</td>
 </tr>
 <tr>
@@ -3060,7 +3060,7 @@
 <td></td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Email Builder plug-in for the access_misc module. *</td>
 </tr>
 <tr>
@@ -3115,7 +3115,7 @@
 <td></td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>ConstantContactApi used in AccessMiscCommands.php</td>
 </tr>
 <tr>
@@ -3170,7 +3170,7 @@
 <td>Affinity Group Request</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on affinity_group_request</td>
 </tr>
 <tr>
@@ -3225,7 +3225,7 @@
 <td>Subscribed to ACCESS MATCH updates</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on amp_newsletter</td>
 </tr>
 <tr>
@@ -3280,7 +3280,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on amp_newsletter</td>
 </tr>
 <tr>
@@ -3335,7 +3335,7 @@
 <td>[webform_submission:values:subject:raw]</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on contact</td>
 </tr>
 <tr>
@@ -3390,7 +3390,7 @@
 <td>[webform_submission:values:subject:raw]</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on contact</td>
 </tr>
 <tr>
@@ -3445,7 +3445,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on distributed_experts_network_help</td>
 </tr>
 <tr>
@@ -3500,7 +3500,7 @@
 <td>Edit the CSSN Roles</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on edit_your_cssn_roles</td>
 </tr>
 <tr>
@@ -3555,7 +3555,7 @@
 <td>Subscribed to CCMNet updates</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on get_updates_about_ccmnet</td>
 </tr>
 <tr>
@@ -3610,7 +3610,7 @@
 <td>Subscribed to CCMNet updates</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on get_updates_about_ccmnet</td>
 </tr>
 <tr>
@@ -3665,7 +3665,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on issue</td>
 </tr>
 <tr>
@@ -3720,7 +3720,7 @@
 <td>Campus Champion Application</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on join_campus_champions</td>
 </tr>
 <tr>
@@ -3775,7 +3775,7 @@
 <td>Join the CCMNet Submission</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on join_ccmnet</td>
 </tr>
 <tr>
@@ -3830,7 +3830,7 @@
 <td>Thank you for joining the CCMNet!</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on join_ccmnet</td>
 </tr>
 <tr>
@@ -3885,7 +3885,7 @@
 <td>Join the CSSN Submission</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on join_the_cssn_network</td>
 </tr>
 <tr>
@@ -3940,7 +3940,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on join_the_cssn_network</td>
 </tr>
 <tr>
@@ -3995,7 +3995,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on organization</td>
 </tr>
 <tr>
@@ -4050,7 +4050,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on request_tag</td>
 </tr>
 <tr>
@@ -4105,7 +4105,7 @@
 <td>Please review this KB Resource</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on resource</td>
 </tr>
 <tr>
@@ -4160,7 +4160,7 @@
 <td></td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on rt_ticketing_system</td>
 </tr>
 <tr>
@@ -4215,7 +4215,7 @@
 <td>[webform_submission:values:subject:raw]</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on template_contact</td>
 </tr>
 <tr>
@@ -4270,7 +4270,7 @@
 <td>[webform_submission:values:subject:raw]</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on template_contact</td>
 </tr>
 <tr>
@@ -4325,7 +4325,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on template_feedback</td>
 </tr>
 <tr>
@@ -4380,7 +4380,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on template_feedback</td>
 </tr>
 <tr>
@@ -4435,7 +4435,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on template_job_application</td>
 </tr>
 <tr>
@@ -4490,7 +4490,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on template_job_seeker_profile</td>
 </tr>
 <tr>
@@ -4545,7 +4545,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on template_registration</td>
 </tr>
 <tr>
@@ -4600,7 +4600,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on template_session_evaluation</td>
 </tr>
 <tr>
@@ -4655,7 +4655,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on template_subscribe</td>
 </tr>
 <tr>
@@ -4710,7 +4710,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on template_user_profile</td>
 </tr>
 <tr>
@@ -4765,7 +4765,7 @@
 <td>_default</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Webform email handler on type_of_proposal_support</td>
 </tr>
 <tr>
@@ -4820,7 +4820,7 @@
 <td></td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Account Support Add Header</td>
 </tr>
 <tr>
@@ -4875,7 +4875,7 @@
 <td></td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>ACCESS Orgs List Add Header</td>
 </tr>
 <tr>
@@ -4930,7 +4930,7 @@
 <td></td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Send the Ticketing email</td>
 </tr>
 <tr>

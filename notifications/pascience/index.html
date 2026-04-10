@@ -915,8 +915,8 @@
 <td>Project Approved and Published: {{ project_title }}</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
-<td>Dear {{ submitted_by }}, Great news! Your project has been approved and is now published on the PA Science DMZ portal. Project Details: Title: {{ project_title }} Project Leader: {{ project_leader_fir…</td>
+<td><strong>Body</strong></td>
+<td>Dear {{ submitted_by }}, Great news! Your project has been approved and is now published on the PA Science DMZ portal. Project Details: Title: {{ project_title }} Project Leader: {{ project_leader_first }} {{ project_leader_last }} Approved on: {{ approved_date }} Current Status: {{ status }} Your project is now visible on the Projects page and will appear in the project carousel. Depending on your project status, researchers and students may be able to express interest in joining your project. View your published project: {{ public_url }} Manage your project submission: {{ edit_url }} Next Steps: Keep your project information updated as it progresses Update milestones and deliverables as they are completed Change the project status as needed (Recruiting, In Progress, etc.) You can edit your project at any time using the management link above. Congratulations and best of luck with your project! Best regards, PA Science DMZ Team This is an automated message from the ConnectCI Portal.</td>
 </tr>
 <tr>
 <td><strong>Edit Location</strong></td>
@@ -970,8 +970,8 @@
 <td>New Project Submission: {{ project_title }}</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
-<td>Hello, A new project has been submitted to PA Science DMZ and requires your review. Project Details: Title: {{ project_title }} Project Leader: {{ project_leader_first }} {{ project_leader_last }} Con…</td>
+<td><strong>Body</strong></td>
+<td>Hello, A new project has been submitted to PA Science DMZ and requires your review. Project Details: Title: {{ project_title }} Project Leader: {{ project_leader_first }} {{ project_leader_last }} Contact Email: {{ contact_email|raw }} Submitted by: {{ submitted_by }} on {{ created_date }} Project Description: {{ project_description }} Next Steps: To review and mark this project as "Received", please visit: {{ edit_url }} For questions, please contact {{ submitted_by }} or the project leader at {{ contact_email|raw }}. This is an automated message from the ConnectCI Portal.</td>
 </tr>
 <tr>
 <td><strong>Edit Location</strong></td>
@@ -1025,7 +1025,7 @@
 <td>{{ title }} - interest shown on project</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>{{ flagged_name }} is interested in the project {{ title }}</td>
 </tr>
 <tr>
@@ -1080,8 +1080,8 @@
 <td>Project Submission Received: {{ project_title }}</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
-<td>Dear {{ submitted_by }}, Thank you for submitting your project to PA Science DMZ. Project: {{ project_title }} Submitted on: {{ created_date }} Reference ID: {{ submission_id }} What happens next? Ple…</td>
+<td><strong>Body</strong></td>
+<td>Dear {{ submitted_by }}, Thank you for submitting your project to PA Science DMZ. Project: {{ project_title }} Submitted on: {{ created_date }} Reference ID: {{ submission_id }} What happens next? Please complete the additional project information fields and check the "Notify PA Science DMZ Program Managers of this update" box when you're ready for our team to review your submission—you will receive another notification once your project has been approved and published. You can view or edit your project submission at any time: {{ edit_url }} If you have any questions or need to make changes, please contact us or edit your submission directly. Thank you for your participation in the PA Science DMZ program! Best regards, PA Science DMZ Team This is an automated message from the ConnectCI Portal.</td>
 </tr>
 <tr>
 <td><strong>Edit Location</strong></td>
@@ -1135,8 +1135,8 @@
 <td>Project Updated: {{ project_title }}</td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
-<td>Hello, A project submission has been updated and may require your attention. Project Details: Title: {{ project_title }} Project Leader: {{ project_leader_first }} {{ project_leader_last }} Contact Em…</td>
+<td><strong>Body</strong></td>
+<td>Hello, A project submission has been updated and may require your attention. Project Details: Title: {{ project_title }} Project Leader: {{ project_leader_first }} {{ project_leader_last }} Contact Email: {{ contact_email|raw }} Submitted by: {{ submitted_by }} Last updated: {{ updated_date }} Current Status: {{ status }} Received: {{ received }} Approved: {{ approved }} To review this updated project submission, please visit: {{ edit_url }} This is an automated message from the ConnectCI Portal.</td>
 </tr>
 <tr>
 <td><strong>Edit Location</strong></td>
@@ -1190,7 +1190,7 @@
 <td></td>
 </tr>
 <tr>
-<td><strong>Body Summary</strong></td>
+<td><strong>Body</strong></td>
 <td>Email Builder plug-in for project notifications. *</td>
 </tr>
 <tr>
