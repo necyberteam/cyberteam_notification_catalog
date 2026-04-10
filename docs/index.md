@@ -8,11 +8,11 @@ This catalog is automatically generated from the ConnectCI Drupal application an
 
 ## Sections
 
-- **ACCESS Support** — Notifications from the ACCESS Support portal
-- **Campus Champions** — Notifications from the Campus Champions portal
-- **CCMNet** — Notifications from the CCMNet portal
-- **Open OnDemand** — Notifications from the Open OnDemand portal
-- **PAScience** — Notifications from the PAScience portal
-- **Shared** — Notifications shared across multiple portals
+- **[ACCESS Support](notifications/access-support.md)** — Notifications from the ACCESS Support portal
+- **[Campus Champions](notifications/campus-champions.md)** — Notifications from the Campus Champions portal
+- **[CCMNet](notifications/ccmnet.md)** — Notifications from the CCMNet portal
+- **[Open OnDemand](notifications/open-ondemand.md)** — Notifications from the Open OnDemand portal
+- **[PAScience](notifications/pascience.md)** — Notifications from the PAScience portal
+- **[Shared](notifications/shared.md)** — Notifications shared across multiple portals
 
 Use the navigation above to browse notifications by portal.
