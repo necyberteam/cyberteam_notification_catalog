@@ -632,6 +632,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#module-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        module: key
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#constant-contact-usage-in-accessmisccommandsphp" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1381,6 +1392,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#module-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        module: key
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#constant-contact-usage-in-accessmisccommandsphp" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1855,7 +1877,7 @@
 <td>user action / system event</td>
 <td>email</td>
 <td>Please participate in our survey for {{ title }}</td>
-<td>varies</td>
+<td>event registrant</td>
 <td>no</td>
 </tr>
 <tr>
@@ -1863,7 +1885,7 @@
 <td>user action / system event</td>
 <td>email</td>
 <td>Reminder: please participate in our survey for {{ title }}</td>
-<td>varies</td>
+<td>event registrant</td>
 <td>no</td>
 </tr>
 <tr>
@@ -1887,7 +1909,7 @@
 <td>user action / system event</td>
 <td>email</td>
 <td>{{ email_title }}</td>
-<td>varies</td>
+<td>event registrant</td>
 <td>no</td>
 </tr>
 <tr>
@@ -1921,6 +1943,14 @@
 <td></td>
 <td>varies</td>
 <td>no</td>
+</tr>
+<tr>
+<td>module: key</td>
+<td>programmatic mail call</td>
+<td>email</td>
+<td></td>
+<td>varies</td>
+<td>⚠ yes</td>
 </tr>
 <tr>
 <td>Constant Contact usage in AccessMiscCommands.php</td>
@@ -2175,7 +2205,7 @@
 <td>webform submission</td>
 <td>email</td>
 <td></td>
-<td>varies</td>
+<td>access-support-website@tickets.access-ci.org</td>
 <td>no</td>
 </tr>
 <tr>
@@ -2183,7 +2213,7 @@
 <td>webform submission</td>
 <td>email</td>
 <td></td>
-<td>varies</td>
+<td>access-support-website@tickets.access-ci.org</td>
 <td>no</td>
 </tr>
 <tr>
@@ -2191,7 +2221,7 @@
 <td>webform submission</td>
 <td>email</td>
 <td></td>
-<td>varies</td>
+<td>access-support-website@tickets.access-ci.org</td>
 <td>no</td>
 </tr>
 </tbody>
@@ -2609,11 +2639,11 @@
 </tr>
 <tr>
 <td><strong>Recipient</strong></td>
-<td>varies</td>
+<td>event registrant</td>
 </tr>
 <tr>
 <td><strong>Recipient Role</strong></td>
-<td>any</td>
+<td>registrant</td>
 </tr>
 <tr>
 <td><strong>Subject</strong></td>
@@ -2664,11 +2694,11 @@
 </tr>
 <tr>
 <td><strong>Recipient</strong></td>
-<td>varies</td>
+<td>event registrant</td>
 </tr>
 <tr>
 <td><strong>Recipient Role</strong></td>
-<td>any</td>
+<td>registrant</td>
 </tr>
 <tr>
 <td><strong>Subject</strong></td>
@@ -2829,11 +2859,11 @@
 </tr>
 <tr>
 <td><strong>Recipient</strong></td>
-<td>varies</td>
+<td>event registrant</td>
 </tr>
 <tr>
 <td><strong>Recipient Role</strong></td>
-<td>any</td>
+<td>registrant</td>
 </tr>
 <tr>
 <td><strong>Subject</strong></td>
@@ -3074,6 +3104,61 @@
 <tr>
 <td><strong>Needs Review</strong></td>
 <td>no</td>
+</tr>
+</tbody>
+</table>
+<h3 id="module-key">module: key</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Portals</strong></td>
+<td>access-support</td>
+</tr>
+<tr>
+<td><strong>Trigger</strong></td>
+<td>programmatic mail call</td>
+</tr>
+<tr>
+<td><strong>Send Method</strong></td>
+<td>email</td>
+</tr>
+<tr>
+<td><strong>Timing</strong></td>
+<td>immediate</td>
+</tr>
+<tr>
+<td><strong>Recipient</strong></td>
+<td>varies</td>
+</tr>
+<tr>
+<td><strong>Recipient Role</strong></td>
+<td>any</td>
+</tr>
+<tr>
+<td><strong>Subject</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Body</strong></td>
+<td>mail('module', 'key') call</td>
+</tr>
+<tr>
+<td><strong>Edit Location</strong></td>
+<td>modules/custom/access/modules/access_misc/src/Commands/AccessMiscCommands.php</td>
+</tr>
+<tr>
+<td><strong>Is Shared</strong></td>
+<td>no</td>
+</tr>
+<tr>
+<td><strong>Needs Review</strong></td>
+<td>⚠ yes</td>
 </tr>
 </tbody>
 </table>
@@ -4809,11 +4894,11 @@
 </tr>
 <tr>
 <td><strong>Recipient</strong></td>
-<td>varies</td>
+<td>access-support-website@tickets.access-ci.org</td>
 </tr>
 <tr>
 <td><strong>Recipient Role</strong></td>
-<td>any</td>
+<td>static_address</td>
 </tr>
 <tr>
 <td><strong>Subject</strong></td>
@@ -4864,11 +4949,11 @@
 </tr>
 <tr>
 <td><strong>Recipient</strong></td>
-<td>varies</td>
+<td>access-support-website@tickets.access-ci.org</td>
 </tr>
 <tr>
 <td><strong>Recipient Role</strong></td>
-<td>any</td>
+<td>static_address</td>
 </tr>
 <tr>
 <td><strong>Subject</strong></td>
@@ -4919,11 +5004,11 @@
 </tr>
 <tr>
 <td><strong>Recipient</strong></td>
-<td>varies</td>
+<td>access-support-website@tickets.access-ci.org</td>
 </tr>
 <tr>
 <td><strong>Recipient Role</strong></td>
-<td>any</td>
+<td>static_address</td>
 </tr>
 <tr>
 <td><strong>Subject</strong></td>
