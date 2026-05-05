@@ -1,6 +1,6 @@
 site_name: ACCESS Notification Catalog
 site_description: Auto-generated catalog of all automated notifications sent from ConnectCI portals
-repo_url: https://github.com/access-ci-org/cyberteam_notification_catalog
+repo_url: https://github.com/necyberteam/cyberteam_notification_catalog
 theme:
   name: material
   features:
