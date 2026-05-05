@@ -665,7 +665,7 @@
 </tr>
 <tr>
 <td>Needs Adjustment</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>content moderation transition: request_adjustment</td>
 <td>email</td>
 <td>Your {% if entity.bundle|title == 'Access_News' %}ACCESS News{% else %}ACCESS Event{% endif %} needs adjustment</td>
@@ -673,7 +673,7 @@
 </tr>
 <tr>
 <td>Published</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>content moderation transition: publish</td>
 <td>email</td>
 <td>Your {% if entity.bundle|title == 'Access_News' %}Announcement{% else %}Event{% endif %} was published</td>
@@ -681,7 +681,7 @@
 </tr>
 <tr>
 <td>Review Requested</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>content moderation transition: send_for_review</td>
 <td>email</td>
 <td>{% if entity.bundle == 'access_news' %}Community News{% else %}A Community Event{% endif %} from {{ entity.uid.entity.getDisplayName() }} needs review</td>
@@ -977,7 +977,7 @@
 </tr>
 <tr>
 <td>Email (affinity_group_request)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>Affinity Group Request</td>
@@ -985,7 +985,7 @@
 </tr>
 <tr>
 <td>Email Confirmation (amp_newsletter)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>Subscribed to ACCESS MATCH updates</td>
@@ -993,7 +993,7 @@
 </tr>
 <tr>
 <td>Email (amp_newsletter)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1001,7 +1001,7 @@
 </tr>
 <tr>
 <td>Email confirmation (ccmnet_mentors_contact)</td>
-<td>ccmnet</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>[webform_submission:values:subject:raw]</td>
@@ -1009,7 +1009,7 @@
 </tr>
 <tr>
 <td>Email notification (ccmnet_mentors_contact)</td>
-<td>ccmnet</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>CCMNet Mentors Contact</td>
@@ -1017,7 +1017,15 @@
 </tr>
 <tr>
 <td>Email confirmation (contact)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
+<td>webform submission</td>
+<td>email</td>
+<td>[webform_submission:values:subject:raw]</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Email notification (contact)</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>[webform_submission:values:subject:raw]</td>
@@ -1025,7 +1033,7 @@
 </tr>
 <tr>
 <td>Email (distributed_experts_network_help)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1033,7 +1041,7 @@
 </tr>
 <tr>
 <td>edit cssn roles email (edit_your_cssn_roles)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>Edit the CSSN Roles</td>
@@ -1041,7 +1049,15 @@
 </tr>
 <tr>
 <td>Email Confirmation (get_updates_about_ccmnet)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
+<td>webform submission</td>
+<td>email</td>
+<td>Subscribed to CCMNet updates</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Email (get_updates_about_ccmnet)</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>Subscribed to CCMNet updates</td>
@@ -1049,7 +1065,7 @@
 </tr>
 <tr>
 <td>Email to Help Desk (issue)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1057,7 +1073,7 @@
 </tr>
 <tr>
 <td>Email CC Admin (join_campus_champions)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>Campus Champion Application</td>
@@ -1065,7 +1081,7 @@
 </tr>
 <tr>
 <td>Email (join_ccmnet)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>Join the CCMNet Submission</td>
@@ -1073,7 +1089,7 @@
 </tr>
 <tr>
 <td>Email to Submitter (join_ccmnet)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>Thank you for joining the CCMNet!</td>
@@ -1081,7 +1097,7 @@
 </tr>
 <tr>
 <td>join the network email (join_the_cssn_network)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>Join the CSSN Submission</td>
@@ -1089,7 +1105,7 @@
 </tr>
 <tr>
 <td>Welcome to CSSN (join_the_cssn_network)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1097,7 +1113,7 @@
 </tr>
 <tr>
 <td>Email (organization)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1105,7 +1121,7 @@
 </tr>
 <tr>
 <td>Email (request_tag)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1113,7 +1129,7 @@
 </tr>
 <tr>
 <td>Email (resource)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>Please review this KB Resource</td>
@@ -1121,7 +1137,7 @@
 </tr>
 <tr>
 <td>Ticketing Send Email (rt_ticketing_system)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td></td>
@@ -1129,7 +1145,15 @@
 </tr>
 <tr>
 <td>Email confirmation (template_contact)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
+<td>webform submission</td>
+<td>email</td>
+<td>[webform_submission:values:subject:raw]</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Email notification (template_contact)</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>[webform_submission:values:subject:raw]</td>
@@ -1137,7 +1161,15 @@
 </tr>
 <tr>
 <td>Email confirmation (template_feedback)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
+<td>webform submission</td>
+<td>email</td>
+<td>_default</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Email notification (template_feedback)</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1145,7 +1177,7 @@
 </tr>
 <tr>
 <td>Email Notification (template_job_application)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1153,7 +1185,7 @@
 </tr>
 <tr>
 <td>Email Notification (template_job_seeker_profile)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1161,7 +1193,7 @@
 </tr>
 <tr>
 <td>Email Notification (template_registration)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1169,7 +1201,7 @@
 </tr>
 <tr>
 <td>Email Notification (template_session_evaluation)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1177,7 +1209,7 @@
 </tr>
 <tr>
 <td>Email Notification (template_subscribe)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1185,7 +1217,7 @@
 </tr>
 <tr>
 <td>Email Notification (template_user_profile)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1193,7 +1225,7 @@
 </tr>
 <tr>
 <td>Email (type_of_proposal_support)</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td>_default</td>
@@ -1201,7 +1233,7 @@
 </tr>
 <tr>
 <td>Account Support Add Header</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td></td>
@@ -1209,7 +1241,7 @@
 </tr>
 <tr>
 <td>ACCESS Orgs List Add Header</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
 <td>email</td>
 <td></td>
@@ -1217,8 +1249,24 @@
 </tr>
 <tr>
 <td>Send the Ticketing email</td>
-<td>access-support</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
 <td>webform submission</td>
+<td>email</td>
+<td></td>
+<td>no</td>
+</tr>
+<tr>
+<td>Account registration confirmation</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
+<td>user registers an account</td>
+<td>email</td>
+<td></td>
+<td>no</td>
+</tr>
+<tr>
+<td>Password reset</td>
+<td>access-support, campus-champions, ccmnet, open-ondemand, pascience</td>
+<td>user requests a password reset</td>
 <td>email</td>
 <td></td>
 <td>no</td>
